@@ -8,4 +8,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Run update.py
-        run: python3 update_time.py && ls -alh && cat README.md && cat test.md
+        run: python3 update_time.py && ls -alh && diff README.md test.md
