@@ -1,5 +1,7 @@
 name: Update last commit time
 
+on: push
+
 jobs:
   run:
     runs-on: ubuntu-latest
